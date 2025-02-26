@@ -1,0 +1,27 @@
+{
+  "name": "alex/crud-php",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alex Santos",
+      "email": "alexsantos.web.developer@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^4.0",
+    "slim/psr7": "^1.7"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.7",
+    "mockery/mockery": "^1.6"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
