@@ -25,4 +25,4 @@ jobs:
         run: composer install --no-progress --prefer-dist --optimize-autoloader
 
       - name: ✅ Run Pest Tests
-        run: vendor/bin/pest --verbose
+        run: vendor/bin/pest
